@@ -1,0 +1,1 @@
+# custom_quote_module
