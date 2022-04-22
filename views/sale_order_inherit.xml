@@ -8,8 +8,13 @@
         <field name="arch" type="xml">
 
             <xpath expr="//field[@name='order_line']/tree//field[@name='product_uom_qty']" position="before">
-                <field name="height_prod"/>
                 <field name="width_prod"/>
+                <field name="height_prod"/>
+                <field name="mando"/>
+            </xpath>
+            <xpath expr="//field[@name='order_line']/tree//field[@name='product_uom_qty']" position="after">
+                <field name="encajonda"/>
+                <field name="motor"/>
             </xpath>
 
         </field>
